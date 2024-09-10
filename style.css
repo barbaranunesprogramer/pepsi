@@ -1,0 +1,132 @@
+body {
+    background-color: #070A4E !important;
+    color: #ffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #070A4E !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    margin-right: 50px !important;
+}
+
+.btn-custom {
+    margin-left: 50px !important;
+    border-radius: 15px !important;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: #ffff !important;
+}
+
+.btn-outline-success:hover {
+    background-color: white !important;
+    color: #070A4E !important;
+}
+
+main {
+    color: #ffff;
+    margin-left: 0%;
+
+    /* Adiciona espaçamento interno ao main */
+}
+
+.subtitulo {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    /* Adiciona o negrito */
+}
+
+p {
+    font-size: 15px;
+    /* Ajusta o tamanho da fonte conforme necessário */
+    line-height: 1.2;
+    /* Ajusta a altura da linha para manter o texto compacto */
+    max-width: 80%;
+    /* Garante que o elemento não exceda o contêiner */
+}
+
+.redessociais {
+
+    /* Fixar a posição */
+    right: 0;
+    /* Coloca a div no canto direito */
+    margin-top: 50px;
+    /* Ajusta a altura da div, conforme necessário */
+    display: flex;
+    gap: 50px;
+    /* Espaço entre os ícones das redes sociais */
+    margin-right: 20px;
+    /* Espaço entre a div e a margem direita da página */
+    align-items: flex-start;
+    /* Centraliza verticalmente os ícones */
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* Distribui espaço entre as divs */
+    align-items: flex-start;
+    /* Alinha as divs ao topo */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    /* Define a largura do contêiner como metade da página */
+    padding: 0;
+    /* Adiciona algum espaçamento interno ao contêiner */
+}
+
+.nutritional-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Espaçamento entre as imagens */
+    align-items: center;
+    /* Alinha as imagens verticalmente no centro */
+    justify-content: flex-start;
+    /* Alinha as imagens ao início da linha */
+
+}
+
+.nutritional-info img {
+    max-width: 80px;
+    /* Ajuste o valor conforme necessário para que as imagens se ajustem */
+    height: auto;
+    /* Mantém a proporção das imagens */
+    display: block;
+    /* Remove espaçamento indesejado abaixo das imagens */
+}
+
+.pepsi-images {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+.pepsi-images img {
+    position: absolute;
+}
+
+.pepsi1 {
+    width: 300px;
+    bottom: 0;
+    left: 10%;
+}
+
+.pepsi2 {
+    width: 120px;
+    bottom: 50px;
+    right: 50%;
+}
