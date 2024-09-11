@@ -3,18 +3,44 @@ body {
     color: #ffff;
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow: hidden;
+    height: 100%;
+    transform: scale(0.9);
+    /* Reduz o tamanho de tudo para 90% */
+    transform-origin: top left;
+    /* Mantém o ponto de origem no canto superior esquerdo */
 }
+
 
 .navbar {
+    height: auto;
+    margin-top: 0;
     background-color: #070A4E !important;
+    position: fixed;
+    /* Fixa a navbar no topo */
+    top: 0;
+    left: 0;
+    width: 200%;
+    /* Define a largura como 100% da página */
+    height: 2%;
+    /* Altura automática */
+    background-color: #070A4E !important;
+    /* Cor de fundo */
+    display: flex;
+    justify-content: space-between;
+    /* Distribui os itens horizontalmente */
+    padding: 0;
+    /* Espaçamento interno da navbar */
 }
 
+
 .navbar-nav .nav-link {
+
     color: white !important;
 }
 
 .navbar-brand {
-    margin-right: 50px !important;
+    margin-right: 250px !important;
 }
 
 .btn-custom {
@@ -34,17 +60,24 @@ body {
 
 main {
     color: #ffff;
-    margin-left: 0%;
 
-    /* Adiciona espaçamento interno ao main */
+}
+
+h1 {
+    margin-top: 0;
+
+    height: 10%;
+    bottom: 0;
 }
 
 .subtitulo {
-    margin-top: 50px;
-    font-size: 20px;
+    margin: 30px 0 0;
+    font-size: 15px;
     font-weight: bold;
+    justify-content: space-between;
     /* Adiciona o negrito */
 }
+
 
 p {
     font-size: 15px;
@@ -76,43 +109,46 @@ p {
     justify-content: space-between;
     /* Distribui espaço entre as divs */
     align-items: flex-start;
+    justify-content: space-between;
     /* Alinha as divs ao topo */
 }
 
 .container {
-    display: flex;
-    width: 100%;
-    /* Define a largura do contêiner como metade da página */
-    padding: 0;
-    /* Adiciona algum espaçamento interno ao contêiner */
+    margin-left: 70%;
+
 }
 
+
+
 .nutritional-info {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     /* Espaçamento entre as imagens */
-    align-items: center;
+    align-items: top;
     /* Alinha as imagens verticalmente no centro */
-    justify-content: flex-start;
+    justify-content: space-between;
     /* Alinha as imagens ao início da linha */
 
 }
 
 .nutritional-info img {
-    max-width: 80px;
+
+    max-width: 10px;
     /* Ajuste o valor conforme necessário para que as imagens se ajustem */
-    height: auto;
+    height: 20%;
     /* Mantém a proporção das imagens */
-    display: block;
+    display: flex;
+    gap: 180px;
     /* Remove espaçamento indesejado abaixo das imagens */
 }
 
 .pepsi-images {
     position: relative;
-    width: 400px;
-    height: 400px;
-    margin-right: 100px;
+    width: 300px;
+    height: 350px;
+    margin-right: px;
 }
 
 .pepsi-images img {
@@ -122,11 +158,27 @@ p {
 .pepsi1 {
     width: 300px;
     bottom: 0;
-    left: 10%;
+    left: -30%;
+
 }
 
 .pepsi2 {
     width: 120px;
-    bottom: 50px;
-    right: 50%;
+    bottom: 70px;
+    right: 80%;
+}
+
+.infnutri {
+    width: 50%;
+}
+
+.ml {
+    position: fixed;
+    top: 410px;
+    right: -11%;
+    /* Ajusta a margem conforme necessário */
+    display: flex;
+    align-items: flex-end;
+    align-content: end;
+    width: 10%;
 }
