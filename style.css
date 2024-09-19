@@ -6,9 +6,7 @@ body {
     overflow: hidden;
     height: 100%;
     transform: scale(0.9);
-    /* Reduz o tamanho de tudo para 90% */
     transform-origin: top left;
-    /* Mantém o ponto de origem no canto superior esquerdo */
 }
 
 
@@ -17,20 +15,14 @@ body {
     margin-top: 0;
     background-color: #070A4E !important;
     position: fixed;
-    /* Fixa a navbar no topo */
     top: 0;
     left: 0;
     width: 200%;
-    /* Define a largura como 100% da página */
     height: 2%;
-    /* Altura automática */
     background-color: #070A4E !important;
-    /* Cor de fundo */
     display: flex;
     justify-content: space-between;
-    /* Distribui os itens horizontalmente */
     padding: 0;
-    /* Espaçamento interno da navbar */
 }
 
 
@@ -75,42 +67,33 @@ h1 {
     font-size: 15px;
     font-weight: bold;
     justify-content: space-between;
-    /* Adiciona o negrito */
 }
 
 
 p {
     font-size: 15px;
-    /* Ajusta o tamanho da fonte conforme necessário */
     line-height: 1.2;
-    /* Ajusta a altura da linha para manter o texto compacto */
     max-width: 80%;
-    /* Garante que o elemento não exceda o contêiner */
 }
 
 .redessociais {
 
-    /* Fixar a posição */
     right: 0;
-    /* Coloca a div no canto direito */
     margin-top: 50px;
-    /* Ajusta a altura da div, conforme necessário */
     display: flex;
     gap: 50px;
-    /* Espaço entre os ícones das redes sociais */
     margin-right: 20px;
-    /* Espaço entre a div e a margem direita da página */
+
     align-items: flex-start;
-    /* Centraliza verticalmente os ícones */
+
 }
 
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    /* Distribui espaço entre as divs */
     align-items: flex-start;
     justify-content: space-between;
-    /* Alinha as divs ao topo */
+
 }
 
 .container {
@@ -125,23 +108,17 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* Espaçamento entre as imagens */
     align-items: top;
-    /* Alinha as imagens verticalmente no centro */
     justify-content: space-between;
-    /* Alinha as imagens ao início da linha */
-
 }
 
 .nutritional-info img {
 
     max-width: 10px;
-    /* Ajuste o valor conforme necessário para que as imagens se ajustem */
     height: 20%;
-    /* Mantém a proporção das imagens */
     display: flex;
     gap: 180px;
-    /* Remove espaçamento indesejado abaixo das imagens */
+
 }
 
 .pepsi-images {
@@ -176,7 +153,7 @@ p {
     position: fixed;
     top: 410px;
     right: -11%;
-    /* Ajusta a margem conforme necessário */
+
     display: flex;
     align-items: flex-end;
     align-content: end;
