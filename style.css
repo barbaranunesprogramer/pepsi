@@ -1,5 +1,5 @@
 body {
-    background-color: #070A4E !important;
+    background-color: #070A4E;
     color: #ffff;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -12,13 +12,13 @@ body {
 .navbar {
     height: auto;
     margin-top: 0;
-    background-color: #070A4E !important;
+    background-color: #070A4E;
     position: fixed;
     top: 0;
     left: 0;
     width: 200%;
     height: 2%;
-    background-color: #070A4E !important;
+    background-color: #070A4E;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -27,26 +27,26 @@ body {
 
 .navbar-nav .nav-link {
 
-    color: white !important;
+    color: white;
 }
 
 .navbar-brand {
-    margin-right: 250px !important;
+    margin-right: 250px;
 }
 
 .btn-custom {
-    margin-left: 50px !important;
-    border-radius: 15px !important;
+    margin-left: 50px;
+    border-radius: 15px;
 }
 
 .btn-outline-success {
-    color: white !important;
-    border-color: #ffff !important;
+    color: white;
+    border-color: #ffff;
 }
 
 .btn-outline-success:hover {
-    background-color: white !important;
-    color: #070A4E !important;
+    background-color: white;
+    color: #070A4E;
 }
 
 main {
@@ -166,25 +166,24 @@ p {
             justify-content: center;
             text-align: center;
             flex-wrap: wrap;
-            /* Permite que os itens "quebrem" para a próxima linha */
             margin: 0 auto;
             gap: 10px;
         }
 
         .container img {
             width: calc(40% - 10px);
-            /* Ajusta as imagens do container para 40% da largura */
+
         }
 
         .pepsi-images {
             display: flex;
             justify-content: center;
-            /* Centraliza horizontalmente */
+
             align-items: center;
             position: absolute;
-            /* Posiciona as imagens de forma absoluta */
+
             bottom: 2%;
-            /* Coloca as imagens no final da página */
+
 
             right: 0;
             margin: 0 auto;
@@ -193,7 +192,7 @@ p {
 
         .pepsi-images img {
             display: flex;
-            /* Mantém a proporção */
+
         }
 
         .pepsi1 {
