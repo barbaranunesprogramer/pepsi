@@ -3,7 +3,6 @@ body {
     color: #ffff;
     margin: 0;
     font-family: Arial, sans-serif;
-    overflow: hidden;
     height: 100%;
     transform: scale(0.9);
     transform-origin: top left;
